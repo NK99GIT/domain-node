@@ -2,8 +2,8 @@ import express from "express";
 import multer from "multer";
 import path from "path";
 import * as EmployeeController from "../controllers/employeeController";
-
 const router = express.Router();
+
 
 // Multer setup for photo uploads
 const storage = multer.diskStorage({
